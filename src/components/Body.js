@@ -82,7 +82,7 @@ function Body() {
         }
     }
     return (<div>
-        <div>
+        <div className='entire-div'>
             <div className='upper-side'>
                 <div className="upper-side-text">
                     <h1>More than just shorter links</h1>
