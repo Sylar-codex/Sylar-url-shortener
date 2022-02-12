@@ -89,7 +89,7 @@ function Body() {
                     <p>Build your brand's recognition and get detailed insights on how your links are perfoming.</p>
                     <button className='get-started'>Get Started</button>
                 </div>
-                <div>
+                <div className='ilu-img'>
                     <img src={image1} alt="illustration" />
                 </div>
             </div>

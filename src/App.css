@@ -23,6 +23,7 @@ body{
   font-size: 18px;
    font-weight:500;
    position:relative;
+   overflow-x: hidden;
 }
 body h1 h3 {
   font-weight: 700;
@@ -350,8 +351,8 @@ margin-left: 45%;
     font-size: 23px;
     text-align: center;
   }
-  .upper-side img {
-    margin-left: 130px;
+  .ilu-img { 
+    margin-left: 150px;
   }
   .get-started {
     align-items: center;
@@ -360,7 +361,7 @@ margin-left: 45%;
     height:60%;
   }
   .form-shortener {
-    top:700px;
+    top:650px;
     margin-left: 8%;
     padding:15px;
     background: url("./images/bg-shorten-mobile.svg") no-repeat var(--dark-violet);
@@ -450,6 +451,9 @@ margin-left: 45%;
   font-size: 15px;
   align-items: center;
 }
+.last-part button {
+  width:50%
+}
 .entire-footer {
   display: flex;
   flex-direction: column;
@@ -480,6 +484,9 @@ margin-left: 45%;
 .socials {
   margin-top: 40px;
  margin-right: 50px;
+}
+.socials ul li {
+ margin-left: 10px;
 }
 .header-div {
   margin-left: 20px;
@@ -512,12 +519,15 @@ margin-left: 45%;
 }
 .feature-div ul {
   text-align: center;
-  gap:30px;
+  align-content: space-around;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid var(--gray);
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   width: 300px;
+}
+.feature-div ul li {
+  margin:20px;
 }
 .feature-div ul li:hover{
   color: var(--gray);
@@ -526,12 +536,12 @@ margin-left: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:30px;
   text-align: center;
 }
 .button-div button {
   font-size: 18px;
- width:300px;
+  margin-top: 25px;
+ width:300%;
  height: 50px;
 }
 }
