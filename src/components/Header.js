@@ -8,7 +8,7 @@ function Header() {
 
     const toggleStyle = () => {
         return {
-            left: toggle && '0%'
+            left: toggle && '-1%'
         }
     }
 
